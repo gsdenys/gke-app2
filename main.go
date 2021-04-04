@@ -6,7 +6,7 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "C'est l'application 1")
+	fmt.Fprintf(w, "C'est l'application 2 - kustomize")
 }
 
 func setupRoutes() {
