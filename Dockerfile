@@ -9,14 +9,14 @@ RUN apk add --no-cache \
             pcre-dev \
             libpq \
             pcre
-            
+
 COPY /app /app
 
 WORKDIR /app
 COPY ./requirements.txt /app
 
 RUN pip install -r /app/requirements.txt
-RUN apk del .build-dependencies && rm -rf /var/cache/apk/*
+RUN rm -rf /var/cache/apk/*
 
 EXPOSE 3000
 
