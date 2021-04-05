@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <title>Application 1</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
+    <link href="index.css" rel="stylesheet" title="Default Style">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Mukta');
+
+    body {
+        font-family: 'Mukta', sans-serif;
+        min-height: 550px;
+        background-image: url("https://stack-labs.com/images/backgrounds/header.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .la-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .panneau-pourpre {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        width: 70%;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 400px;
+        background-color: rgba(4, 30, 189, 0.8)
+    }
+
+    .panneau-blanc {
+        background-color: rgba(255, 255, 255, 1);
+        height: 500px;
+        position: absolute;
+        top: -50px;
+        width: 50%;
+        right: calc(50% - 50px);
+        box-shadow: 0 0 15px 9px #00000096;
+    }
+
+    .panneau-pourpre {
+        color: antiquewhite;
+    }
+
+    .nom-du-site {
+        width: 45%;
+        padding: 0 50px;
+        top: 20%;
+        right: 0;
+        position: absolute;
+        text-align: left;
+    }
+
+    .nom-du-site h2 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .nom-du-site p {
+        text-align: justify;
+    }
+
+    .connecter {
+        color: #041ebd;
+        text-align: center;
+        padding: 70px;
+    }
+
+    .connecter h2 {
+        padding-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    #sl {
+        width: 35%;
+    }
+</style>
+
+<body>
+    <div class="panneau-pourpre">
+        <div class="nom-du-site">
+            <br><br><br><br>
+            <p>Il s'agit d'une application Web simple qui n'affiche que le html et le css.</p>
+        </div>
+
+        <div class="panneau-blanc">
+            <div class="connecter">
+                <h2>Application web</h2>
+                <br><br><br><br>
+                <p>Test technique pour</p>
+                <img src="https://devfest2019.gdgnantes.com/images/partners/stack_labs.png" id="sl">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+flask >= 1.1.2
+uwsgi >= 2.0.19.1
+
+Flask-SQLAlchemy >= 2.5.1
+flask-marshmallow >= 0.14.0
+Flask-RESTful >= 0.3.8
+
+marshmallow-sqlalchemy >= 0.24.2
+
+psycopg2 >= 2.8.6
