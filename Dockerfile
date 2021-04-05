@@ -1,14 +1,15 @@
 FROM python:3-alpine
-RUN apk add --virtual .build-dependencies \
-            --no-cache \
+
+RUN apk add --no-cache \
             python3-dev \
             build-base \
             linux-headers \
             musl-dev \
             postgresql-dev \
-            pcre-dev
-
-RUN apk add --no-cache pcre
+            pcre-dev \
+            libpq \
+            pcre
+            
 COPY /app /app
 
 WORKDIR /app
